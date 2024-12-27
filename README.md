@@ -1,33 +1,47 @@
-# vue3-starter-simple
+# Vue3 Starter Simple
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and clean Vue 3 starter project with TypeScript, Pinia, Vue Router, TailwindCSS, and Vite.
 
-## Recommended IDE Setup
+This setup includes:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3**: A progressive JavaScript framework for building user interfaces.
+- **Pinia**: State management for Vue.js.
+- **Vue Router**: Router for single-page applications.
+- **Vite**: A next-generation frontend build tool.
+- **TailwindCSS**: A utility-first CSS framework.
+- **Prettier & ESLint**: Code formatting and linting for maintaining clean and consistent code.
+- **Husky & lint-staged**: Git hooks and automated formatting/linting before commits.
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Features
 
-## Customize configuration
+- 🚀 **Fast Development** with Vite.
+- 🔧 **Code Quality** with ESLint, Prettier, and TypeScript.
+- 💅 **TailwindCSS** for modern styling.
+- 🔒 **Pinia** for state management.
+- 🔄 **Vue Router** for managing views.
+- ⚙️ **Husky & lint-staged** for automated code formatting and linting.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## Installation
 
-```sh
+### 1. Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/vue3-starter-simple.git
+cd vue3-starter-simple
+```
+
+### 2. Install dependencies:
+
+```bash
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### 3. Run the development server:
 
-```sh
+```bash
 pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
 ```
