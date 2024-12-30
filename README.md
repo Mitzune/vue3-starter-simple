@@ -30,7 +30,7 @@ This setup includes:
 ### 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/vue3-starter-simple.git
+git clone https://github.com/Mitzune/vue3-starter-simple.git
 cd vue3-starter-simple
 ```
 
