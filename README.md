@@ -45,3 +45,48 @@ pnpm install
 ```bash
 pnpm dev
 ```
+
+This project uses **ESLint** and **Prettier** for linting and formatting. It enforces consistent code style and helps avoid errors.
+
+- **Lint**:
+
+    ```bash
+    pnpm lint
+    ```
+
+- **Format**:
+    ```bash
+    pnpm format
+    ```
+
+## 🐶 Husky & Lint-staged
+
+Husky and lint-staged are set up to ensure that any staged files are linted and formatted before they are committed. This ensures that the code in the repository is always clean and follows the defined standards.
+
+## 🔧 Configuration
+
+- ESLint configuration is in `eslint.config.js`
+- Prettier configuration is in `prettier.config.js`
+- Tailwind configuration is in `tailwind.config.js`
+
+## 📚 Learning Resources
+
+- [Vue 3 Documentation](https://v3.vuejs.org/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [VueUse Documentation](https://vueuse.org/)
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Mitzune/vue3-starter-simple/issues).
+
+## 🙏 Acknowledgements
+
+- [Vuejs Core](https://github.com/vuejs/core) for the front end library
+- [Tailwind CSS team](https://tailwindcss.com/) for the utility-first CSS framework
+- [VueUse team](https://vueuse.org/) for the collection of Vue Composition Utilities
+
+Happy coding! 🎉
